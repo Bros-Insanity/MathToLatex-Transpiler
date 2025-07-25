@@ -170,8 +170,9 @@ function is_likely_math_expression(line::String)::Bool
         return false
     end
 
-    english_indicators = r"\b(the|and|or|but|if|then|when|where|how|what|is|are|was|were|have|has|had|will|would|could|should|may|might|can|must|shall|to|of|in|on|at|by|for|with|from|as|an|a)\b"i
-    if contains(line, english_indicators)
+    indicators = r"\b(the|and|or|but|if|then|when|where|how|what|is|are|was|were|have|has|had|will|would|could|should|may|might|can|must|shall|to|of|in|on|at|by|for|with|from|as|an|a|le|la|les|un|une|des|et|ou|mais|si|alors|quand|où|comment|que|quoi|est|sont|était|étaient|ai|as|a|avons|avez|ont|aurai|aurais|aurait|aurions|auriez|auraient|peux|peut|pouvons|pouvez|peuvent|dois|doit|devons|devez|doivent|peut|pourrais|pourrait|devrais|devrait|dois|doit|doit|à|de|dans|sur|par|pour|avec|sans|sous|entre|comme|en|au|aux|du|des)\b"i
+
+    if contains(line, indicators)
         return false
     end
 

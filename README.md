@@ -29,6 +29,9 @@ julia Main.jl --create-template my_template.tex
 julia Main.jl --file input.txt output.tex --display --document-wrapper
 ```
 
+### Template usage :
+To use your own template, you need to keep a line with the following item : `{{ generated }}` inside your LaTeX template so it can be replaced by the generated code.
+
 ## Version changelog
 
 ### 1.0

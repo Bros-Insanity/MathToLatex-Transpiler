@@ -1,5 +1,5 @@
 # MathToLatex Transpiler
-![GitHub](https://img.shields.io/badge/Version-1.0-purple) ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Status-Working-Green) ![GitHub](https://img.shields.io/badge/Tests-Passing-Green)
+![GitHub](https://img.shields.io/badge/Version-1.0-purple) ![GitHub](https://img.shields.io/badge/License-MIT-blue) ![GitHub](https://img.shields.io/badge/Status-Working-Green) ![GitHub](https://img.shields.io/badge/Tests-Passing-Green) ![GitHub](https://img.shields.io/badge/Julia%20tested%20version-1.6.7-9558B2?logo=julia&logoColor=white)
 
 MathToLatex Transpiler is a small transpiler that compiles a custom math language to latex language.
 Its purpose is to fasten note taking for math or physics lessons.
